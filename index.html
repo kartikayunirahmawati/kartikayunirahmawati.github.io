@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYR - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/mushroom logo.svg" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Kartika Yuni Rahmawati" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kartika Yuni Rahmawati">Kartika Yuni Rahmawati</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kartikayunirahmawati13@gmail.com" class="contact-link">kartikayunirahmawati13@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+62 895649262</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 13, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Batam, Kepulauan Riau, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a sixth-semester student majoring in Informatics Engineering, Multimedia
+            Engineering Technology Program at Batam State Polytechnic University, with a keen 
+            interest in IT, especially in Design. 
+          </p>
+
+          <p>
+            I have leadership skills, good communication abilities, am capable of working in a 
+            team, and am adaptable. During my studies, I have worked on several projects 
+            including poster design, scriptwriting & storyboarding, video & short film production,
+            broadcasting, voice-over, application development, website creation, game 
+            development, as well as mobile & desktop UI/UX design.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX design</h4>
+
+                <p class="service-item-text">
+                  Designing web and mobile applications.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-bc.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Broadcast</h4>
+
+                <p class="service-item-text">
+                  Broadcast events live streaming.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Producing websites with the team.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+
+                <p class="service-item-text">
+                  Producing android application with the team.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Take and edit photos.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-video.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Videography</h4>
+
+                <p class="service-item-text">
+                  Take and edit videos.
+                </p>
+              </div>
+
+            </li>
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-game.svg
+              " alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Game Development</h4>
+
+              <p class="service-item-text">
+                Developing VR games using Oculus and HTC.
+              </p>
+            </div>
+
+          </li>
+
+          </ul>
+
+        </section>
+
+
+       
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - My Gallery
+        -->
+
+        <section class="My Gallery">
+
+          <h3 class="h3 My Gallery">My Gallery</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery1.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery2.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery4.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery5.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery3.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery6.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery7.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery8.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery9.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery10.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery11.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery12.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery13.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery14.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery15.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery16.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery17.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/gallery18.jpeg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Batam State Polytechnic</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                I continued my education by taking the same major, Multimedia 
+                Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">"State Vocational School 4 Batam"</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                I majored in Multimedia Engineering when I was in school.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience, Organizational & Volunteer</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dewan Penasihat Agung (DPA)</h4>
+
+
+              <p class="timeline-text">
+                After the General Chair period at the REKAM Organization, I continued to serve on the Dewan Penasihat Agung (DPA).
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Director Film</h4>
+
+
+              <p class="timeline-text">
+                Making a Short Film Project and participating in the Lampung short film festival..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Camera Person</h4>
+
+
+              <p class="timeline-text">
+                Several music video projects such as Dance Arts, Satria Indonesia Music Videos & several other video productions.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">General Chair</h4>
+
+
+              <p class="timeline-text">
+                Serves as General Chair of the REKA Multimedia Organization (REKAM) for the 2023-2024 period.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Broadcast Camera Person</h4>
+
+
+              <p class="timeline-text">
+                Broadcasting Committee; Graduation 2022 & 2023, Vocational Performance 2023, Inauguration 2023.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Principal Secretary & Head of Broadcasting Public Relations</h4>
+
+
+              <p class="timeline-text">
+                KMIPN Committee, PII 2022.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Director Of Photography</h4>
+
+
+              <p class="timeline-text">
+                Producing Satria Indonesia Music Videos, Batam State Polytechnic.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narrator and Voice Actor</h4>
+
+
+              <p class="timeline-text">
+                Became a narrator and voice actor when producing the Hangar Safety 
+                Briefing and Batam State Polytechnic Safety Induction Video.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Deputy & General Chair</h4>
+
+              <p class="timeline-text">
+                At SMK Negeri 4 Batam I served as deputy and chairman of Commission III
+                for 2 periods in the MPK organization.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX design</h5>
+                <data value="89">89%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 89%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML, CSS, JavaScript</h5>
+                <data value="58">58%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 58%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Broadcast</h5>
+                <data value="86">86%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Photography</h5>
+                <data value="89">89%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 89%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Videography</h5>
+                <data value="76">76%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 76%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Editing</h5>
+                <data value="62">62%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 62%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Teamwork</h5>
+                <data value="86">86%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Website</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Mobile App</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Game</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Photography</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Videography</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Broadcast</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Website</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile App</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Photography</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Videography</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Broadcast</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/POSTER1.png" alt="Aplikasi Web Find Me !" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplikasi Web Find Me !</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/POSTER2.png" alt="VR Game - Tower Defense" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VR Game - Tower Defense</h3>
+
+                <p class="project-category">Game development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile app">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/POSTER3.png" alt="Android Apps - Gasrent" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Android Apps - Gasrent</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG2.jpeg" alt="lonely" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">lonely</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG1.jpeg" alt="26 Des" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">26 Des 2021</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG3.jpeg" alt="POV" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">POV</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG4.jpeg" alt="cloudy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">cloudy</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG5.jpeg" alt="colored" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">colored</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG6.jpeg" alt="i told sunset about u." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">i told sunset about u.</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG7.jpeg" alt="lake" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">lake</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG8.jpeg" alt="river" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">river</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG9.jpeg" alt="thumbelina?" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">thumbelina?</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG10.jpeg" alt="morning hello" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">morning hello</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG11.jpeg" alt="a promise" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">a promise</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+    
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+    
+                  <img src="./assets/images/PG20.jpeg" alt="grey" loading="lazy">
+                </figure>
+    
+                <h3 class="project-title">grey</h3>
+    
+                <p class="project-category">Photography</p>
+    
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PG13.jpeg" alt="spare time" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">spare time</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="photography">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/PG14.jpeg" alt="reach for the stars" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">reach for the stars</h3>
+
+              <p class="project-category">Photography</p>
+
+            </a>
+          </li>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG15.jpeg" alt="blossom" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">spare time</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG16.jpeg" alt="olaa" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">olaa</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG17.jpeg" alt="baloon" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">baloon</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG18.jpeg" alt="neko" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">neko</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG19.jpeg" alt="rofie" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">rofie</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG21.jpeg" alt="dub" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">dub</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG22.jpeg" alt="look at here!" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">rlook at here!</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG23.jpeg" alt="endure" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">endure</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG24.jpeg" alt="vie" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">vie</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+        <li class="project-item  active" data-filter-item data-category="photography">
+          <a href="#">
+
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="./assets/images/PG12.jpeg" alt="morning dew" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">morning dew</h3>
+
+            <p class="project-category">Photography</p>
+
+          </a>
+        </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
